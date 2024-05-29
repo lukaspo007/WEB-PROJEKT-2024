@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Interior Design</title>
+    <link rel="stylesheet" href="styles.css">
+
+<style>
+        .button {
+          border: none;
+          color: rgb(8, 243, 0);
+          padding: 16px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          transition-duration: 0.4s;
+          cursor: pointer;
+        }
+        
+        .button1 {
+          background-color: rgb(179, 255, 0); 
+          color: rgb(51, 255, 0); 
+          border: 2px solid #04AA6D;
+        }
+        
+        .button1:hover {
+          background-color: #7bff00;
+          color: rgb(43, 255, 0);
+        }
+        
+        
+        
+</style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">!PohodaWEB</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <h1>EPICKÝ HAD</h1>
+            <p>Old school hadík.</p>
+            <div class="buttons">
+                <button class="button" onclick="openNewPage()">Hrát</button>
+                
+        </div>
+    </div>
+
+    <script>
+        function openNewPage() {
+            window.location.href = "had.html"; // Nahraď "index2.html" názvem tvé cílové stránky
+        }
+    </script>
+</body>
+</html>
